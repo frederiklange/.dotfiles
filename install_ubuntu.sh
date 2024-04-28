@@ -8,6 +8,9 @@
 # install essential built tools
 sudo apt-get install build-essential procps curl file git
 
+# install wslu to acces browser
+sudo apt install wslu
+
 # install packages
 brew install gcc
 brew install git
