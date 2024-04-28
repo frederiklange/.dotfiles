@@ -19,6 +19,7 @@ brew install neovim
 brew install unzip
 brew install tmux # may come as a defaul in some ubuntu version
 brew install stow
+brew install gh
 
 # stow
 stow zsh
