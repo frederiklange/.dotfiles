@@ -1,15 +1,16 @@
+# update and upgrade + essential built tools
+sudo apt update && sudo apt upgrade
+sudo apt-get install build-essential procps curl file git
+
+# install wslu
+sudo apt install wslu
+
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # added homebrew to PATH and to bash shell rcfile
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/frederik-lange/.bashrc
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-# install essential built tools
-sudo apt-get install build-essential procps curl file git
-
-# install wslu to acces browser
-sudo apt install wslu
 
 # install packages
 brew install gcc
