@@ -12,3 +12,9 @@ export BROWSER=wslview
 
 # aliases
 alias vim="nvim"
+
+# use autosuggestions
+source /home/linuxbrew/.linuxbrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# use syntax highlighting
+source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
