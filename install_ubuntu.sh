@@ -26,6 +26,9 @@ brew install stow
 brew install gh
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
+brew install nvm
+brew install pyenv
+brew install fd
 
 # stow
 stow zsh
