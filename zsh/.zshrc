@@ -28,5 +28,5 @@ source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highl
 
 # aliases
 alias vim="nvim"
-
+alias todo="vim ~/workspace/github.com/frederiklange/zettlekasten/to-do.md"
 
